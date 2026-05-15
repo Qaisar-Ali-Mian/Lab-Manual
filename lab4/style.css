@@ -1,0 +1,13 @@
+body{
+    background-color:black;
+}
+h3{
+    color:blue;
+    text-decoration:underline dotted;
+    text-decoration-color:white;
+    font-size:30px;
+}
+.external{
+    font-weight:bolder;
+    color:white;
+}
