@@ -1,0 +1,101 @@
+    h1 {
+        color: darkblue;
+        text-align: center;
+    }
+
+    p {
+        color: black;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    img {
+        width: 200px;
+        border: 2px solid black;
+        display: block;
+        margin: auto;
+    }
+
+    ul {
+        color: purple;
+        font-weight: bold;
+    }
+
+    a {
+        color: green;
+        text-decoration: none;
+    }
+
+    input {
+        padding: 5px;
+        border: 1px solid gray;
+    }
+    .highlight {
+        background-color: yellow;
+        font-weight: bold;
+        color: black;
+    }
+
+    #main-title {
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+
+    }
+    h2, p, li {
+    border: 2px solid black;
+    padding: 5px;
+    }  
+    div p {
+    color: blue;
+    font-style: italic;
+}
+
+div > ul > li {
+    color: brown;
+    font-weight: bold;
+}
+
+input[type="email"] {
+    border: 2px solid blue;
+    background-color: #e6f0ff;
+}
+
+input[type="password"] {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    font-size:20px;
+}
+
+
+li:first-child {
+    color: green;
+    font-weight: bold;
+}
+
+li:last-child {
+    color: orange;
+    font-weight: bold;
+}
+
+#main-title::before {
+    content: "Lab Report: ";
+    color: black;
+    font-weight: bold;
+}
+
+#main-title::after {
+    content: " - Experiment on CSS Selectors";
+    color: black;
+    font-weight: bold;
+}
+p::first-letter {
+    font-size: 24px;
+    color: green;
+    font-weight: bold;
+}
